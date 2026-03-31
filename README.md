@@ -1,18 +1,19 @@
-IBM Full Stack Developer Capstone Project
+# 🚗 Car Dealership API
 
-This repository contains my IBM Coursera Capstone Project.
+A Django-based REST API to manage car dealers.
 
-Technologies Used:
+## Features
+- View all dealers
+- Add new dealer
+- Filter dealers by city/state
+
+## Tech Stack
+- Python
 - Django
-- React
-- Express
-- MongoDB
+- SQLite
 
-Features:
-- Dealer Listings
-- Dealer Reviews
-- User Login System
-- Admin Panel
-- Sentiment Analysis
+## Run Locally
+python manage.py runserver
 
-This project was completed as part of the IBM Full Stack Software Developer Professional Certificate.
+## API Endpoint
+http://127.0.0.1:8000/dealers/
